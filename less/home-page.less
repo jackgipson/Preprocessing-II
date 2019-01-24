@@ -59,3 +59,24 @@
     }
   }
 }// home
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: baseline;
+  margin-top: 20px;
+
+  @media @mobile {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+
+    h1 {
+      margin: 0 auto;
+      margin-bottom: 10px;
+    }
+  
+  }
+}    
