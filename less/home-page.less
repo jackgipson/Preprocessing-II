@@ -20,12 +20,9 @@
       flex-direction: column;
     }
     
-   
-    
     .text-content {
       width: 48%;
   
-
       @media @mobile {
         width: 100%;
       }  
@@ -47,16 +44,6 @@
     @media @mobile {
       width: 100%;
       flex-direction: column-reverse
-    }
-
-    .text-content {
-      //padding-left: 1%;
-      
-    }
-
-    .img-content {
-      //padding-right: 1%;
-     
     }
   }
 
@@ -82,25 +69,25 @@
     @media @mobile {
       display: flex;
       flex-direction: column;
-      width: 290%;
+      width: 100%;
       padding: 40px;
     }
     
     .destination {
-      width: 30%;
       margin-bottom: 30px;
     }
 
     .btn {
-      .btn-layout(center, center);
+      .btn-layout(center, center, @btnbackground);
 
         @media @mobile {
           width: 100%;
         }
       }
     }
+  }
 
-}// home
+// home
 
 header {
   display: flex;

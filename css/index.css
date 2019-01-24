@@ -176,14 +176,14 @@ img {
   }
 }
 nav {
-  width: 40%;
+  width: 50%;
   display: flex;
   justify-content: space-around;
   margin-bottom: 30px;
+  white-space: nowrap;
 }
 @media (max-width: 500px) {
   nav {
-    display: flex;
     width: 100%;
     margin-bottom: 10px;
   }
@@ -194,8 +194,7 @@ nav a {
   font-size: 1.6rem;
 }
 .nav-image hr {
-  width: 127%;
-  margin-left: -100px;
+  width: 100%;
   margin-bottom: 0px;
   border-top: 2px dashed gray;
 }
@@ -281,12 +280,11 @@ nav a {
   .home .content-pick {
     display: flex;
     flex-direction: column;
-    width: 290%;
+    width: 100%;
     padding: 40px;
   }
 }
 .home .content-pick .destination {
-  width: 30%;
   margin-bottom: 30px;
 }
 .home .content-pick .btn {

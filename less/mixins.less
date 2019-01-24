@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #008080;
+    background: @btnbackground;
     height: 45px;
     border-radius: 15px;
     font-size: 2rem;
@@ -18,11 +18,11 @@
     }
 }
 
-.btn-layout(@j-content, @a-items) {
+.btn-layout(@j-content, @a-items, @btnback) {
     display: flex;
     justify-content: @j-content;
     align-items: @a-items;
-    background: #008080;
+    background: @btnback;
     height: 45px;
     border-radius: 15px;
     font-size: 2rem;
